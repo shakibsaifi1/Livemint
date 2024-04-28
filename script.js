@@ -135,9 +135,9 @@ closebtn.addEventListener("click", function () {
         }
       });
 
-      var whiteOverly = document.querySelector('.whiteOverly');
+      var bgShadow = document.querySelector('.bgShadow');
 
-      whiteOverly.addEventListener("click", function(){
+      bgShadow.addEventListener("click", function(){
         if(sidenav.style.display === "block") {
           sidenav.style.display = "none";
           bgShadow.style.display = "none";
